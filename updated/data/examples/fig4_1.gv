@@ -1,0 +1,37 @@
+digraph G {
+	splines=polyline;
+	ranksep=0.22;
+	nodesep=0.22;
+	nodesize=0.16;
+	fontsize=8;
+	edge [arrowsize=0.5];
+	node [fontsize=8 shape=circle width=0.32 fixedsize=shape];
+
+	n1 -> n9	[_graphml_id=e0];
+	n2 -> n14	[_graphml_id=e10];
+	n3 -> n4	[_graphml_id=e1];
+	n3 -> n12	[_graphml_id=e13];
+	n5 -> n4	[_graphml_id=e2];
+	n8 -> n7	[_graphml_id=e9];
+	n9 -> n14	[_graphml_id=e5];
+	n11 -> n16	[_graphml_id=e11];
+	n12 -> n0	[_graphml_id=e3];
+	n13 -> n11	[_graphml_id=e4];
+	n14 -> n6	[_graphml_id=e6];
+	n15 -> n10	[_graphml_id=e7];
+	n15 -> n11	[_graphml_id=e8];
+	n15 -> n18	[_graphml_id=e14];
+	n17 -> n13	[_graphml_id=e12];
+	n18 -> n1	[_graphml_id=e15];
+	n18 -> n11	[_graphml_id=e23];
+	n19 -> n0	[_graphml_id=e18];
+	n19 -> n3	[_graphml_id=e20];
+	n19 -> n4	[_graphml_id=e21];
+	n19 -> n5	[_graphml_id=e22];
+	n19 -> n7	[_graphml_id=e17];
+	n19 -> n10	[_graphml_id=e16];
+	n19 -> n18	[_graphml_id=e19];
+	n20 -> n4	[_graphml_id=e26];
+	n20 -> n5	[_graphml_id=e24];
+	n20 -> n14	[_graphml_id=e25];
+}

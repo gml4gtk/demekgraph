@@ -1,0 +1,26 @@
+digraph {
+	splines=polyline;
+	ranksep=0.22;
+	nodesep=0.22;
+	nodesize=0.16;
+	fontsize=8;
+	loopsize=0.24;
+	edge [arrowsize=0.5];
+	node [fontsize=8 shape=circle width=0.32 fixedsize=shape];
+
+	n0 -> n1;
+	n0 -> n2;
+	n1 -> n3;
+	n1 -> n4;
+	n2 -> n3;
+	n3 -> n5;
+	n3 -> n4;
+	n3 -> n8;
+	n6 -> n7;
+	n6 -> n6;
+	n3 -> n9;
+	n10 -> n11;
+	n10 -> n12;
+	n12 -> n13;
+	n13 -> n10;
+}

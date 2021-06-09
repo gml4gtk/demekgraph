@@ -1,0 +1,95 @@
+digraph G{
+splines=polyline;
+ranksep=0.22;
+nodesep=0.22;
+nodesize=0.16;
+fontsize=8
+edge [arrowsize=0.5]
+node [fontsize=8 shape=circle width=0.32 fixedsize=shape];
+
+n10 -> n33
+n10 -> n26
+n0 -> n10
+n0 -> n46
+n46 -> n22
+n4 -> n1
+n1 -> n4
+n1 -> n29
+n1 -> n37
+n1 -> n38
+n29 -> n10
+n29 -> n48
+n29 -> n1
+n37 -> n15
+n38 -> n25
+n38 -> n27
+n38 -> n40
+n11 -> n7
+n11 -> n14
+n11 -> n2
+n2 -> n11
+n2 -> n23
+n2 -> n37
+n2 -> n42
+n42 -> n32
+n13 -> n46
+n13 -> n31
+n5 -> n13
+n5 -> n16
+n5 -> n46
+n16 -> n33
+n16 -> n5
+n19 -> n14
+n19 -> n38
+n6 -> n19
+n6 -> n38
+n6 -> n47
+n47 -> n10
+n47 -> n43
+n18 -> n9
+n18 -> n10
+n18 -> n14
+n18 -> n46
+n18 -> n32
+n8 -> n18
+n8 -> n23
+n8 -> n32
+n7 -> n41
+n15 -> n14
+n17 -> n37
+n20 -> n15
+n20 -> n46
+n21 -> n13
+n21 -> n23
+n21 -> n28
+n28 -> n7
+n28 -> n23
+n28 -> n46
+n22 -> n14
+n22 -> n32
+n24 -> n14
+n35 -> n10
+n35 -> n12
+n35 -> n26
+n26 -> n35
+n48 -> n27
+n30 -> n14
+n3 -> n31
+n31 -> n3
+n31 -> n7
+n31 -> n13
+n31 -> n49
+n32 -> n2
+n32 -> n8
+n32 -> n39
+n39 -> n35
+n39 -> n32
+n34 -> n43
+n36 -> n49
+n40 -> n6
+n40 -> n12
+n40 -> n15
+n41 -> n28
+n44 -> n11
+n45 -> n12
+}
