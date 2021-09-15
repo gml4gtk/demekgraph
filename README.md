@@ -17,7 +17,8 @@ The goal of this thesis is to implement a C++ library for creating visualization
 The library allows the user to create a graph by adding vertices and edges and create a hierarchical layout of this graph in space which is described by the positions of vertices and control points of edges.  
 The thesis first gives an introduction to graph drawing, then the implemented algorithms are described in detail and the interface and usage of the library are illustrated on a sample application.  
 The quality of drawings produced by the library is evaluated by comparing them with drawings produced by a popular graph drawing tool dot.  
-
+For nodes with variable (x,y) sizes updates must be made and horizontal_compaction() must be done different  
+  
 This is example of the generated svg images  
 
 ![screenshot](screenshot.png)
